@@ -1,11 +1,10 @@
 void main() {
-  //variavel de tipo dinâmico
-  var nome = 'Dieimes';
+  //Variavel declarada sem valor inicial
+  late String sobrenome;
 
-  //variaveis com tipos especificos
-  int idade = 33;
-  double altura = 1.75;
-  String cidade = 'Ivaiporã';
-  bool possuiCarro = true;
+  //inicializando a variavel antes de usa-la
+  sobrenome = 'Nunes';
+
+  print(sobrenome);
  
 }
